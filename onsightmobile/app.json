@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "expo": {
+      "notification": {
+        "icon": "./assets/LogoOnSight.png",
+        "color": "#9093"
+      }
+    },
+    "name": "onsightmobile",
+    "slug": "onsightmobile",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "97bbeefb-7d0e-41c9-b41d-c71919fdcacc"
+      }
+    },
+    "scheme": "onsightmobile",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/LogoOnSight.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/LogoOnSight.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LogoOnSight.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogoOnSight.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    }
+  }
+}
